@@ -1,8 +1,8 @@
 <script lang="ts">
-    import {type Circle} from "$lib";
-    import CircleLink from "./CircleLink.svelte";
+  import {type Circle} from "$lib";
+  import CircleLink from "./CircleLink.svelte";
 
-    let { circle }: {circle: Circle} = $props();
+  let {circle}: { circle: Circle } = $props();
 </script>
 
 <div class="root">
@@ -12,12 +12,38 @@
             {#each circle.imageUrls as imageUrl}
                 <img src={imageUrl} alt="サークル活動の様子"/>
             {/each}
+            <table>
+                <tbody>
+                <tr>
+                    <td class="bold">公認/非公認</td>
+                    <td>
+                        {#if circle.circleType === "official"}
+                            公認
+                        {:else}
+                            非公認
+                        {/if}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bold">ジャンル</td>
+                    <td>
+                        {#if circle.circleCategory === "exercise"}
+                            運動系
+                        {:else if circle.circleCategory === "culture"}
+                            文化系
+                        {:else}
+                            技術系
+                        {/if}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
         <div class="right">
             <p>{circle.description}</p>
             <div class="links">
                 {#each circle.links as link}
-                    <CircleLink url={link} />
+                    <CircleLink url={link}/>
                 {/each}
             </div>
         </div>
@@ -39,10 +65,14 @@
 
         box-shadow: 0 0 8px #f1f1f1;
     }
+
     .infos {
         display: flex;
         gap: 3em;
+
+        flex-wrap: wrap;
     }
+
     .left {
         display: flex;
         flex-direction: column;
@@ -73,5 +103,18 @@
     img {
         width: 300px;
         border-radius: 5px;
+    }
+
+    table {
+        border-collapse: collapse;
+        color: #222;
+    }
+
+    td {
+        border: none;
+    }
+
+    .bold {
+        font-weight: bold;
     }
 </style>
