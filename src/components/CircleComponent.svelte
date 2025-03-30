@@ -114,7 +114,7 @@
 
     .links {
         display: flex;
-        gap: 2em;
+        column-gap: 2em;
         flex-wrap: wrap;
     }
 
