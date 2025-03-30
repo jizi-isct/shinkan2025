@@ -33,9 +33,12 @@
 
     function animate(delta: number) {
       for (let mesh of meshes) {
-        mesh.rotation.x += delta;
-        mesh.rotation.y += delta;
-        mesh.position.y += delta * 0.00000001;
+        mesh.rotation.x += delta * 1e-7;
+        mesh.rotation.y += delta * 1e-7;
+        mesh.position.y += delta * 3e-7;
+        if(mesh.position.y > 3) {
+          mesh.position.y -= 6;
+        }
       }
 
       renderer.render(scene, camera);
