@@ -758,7 +758,7 @@
     "links": [
       "https://x.com/SciTokyobridge"
     ],
-    "jpg": [
+    "imageUrls": [
       "images/1-Jlc7jLe1FC9Rxa9myaxmxb8DqVG1gpd.jpg",
       "images/1YWTJ8yqDc6VKT8KmixEXiLxPr_qW71qm.jpg"
     ],
@@ -773,7 +773,7 @@
       "https://olt.main.jp/",
       "https://www.instagram.com/scitokyo_olt?igsh=YzJnNDc3bWJzZW45"
     ],
-    "jpg": [
+    "imageUrls": [
       "images/1BCXxEAiBK4x_bI8jR7TW5dJMoRNtDW_0.jpg"
     ],
     "circleCategory": "exercise",
@@ -786,7 +786,7 @@
       "https://x.com/ScienceTokyoAC",
       "https://www.isctac.jp"
     ],
-    "jpg": [
+    "imageUrls": [
       "images/12NPS0NasLPrMONBSZb9V57tARrYDt4y3.jpg",
       "images/1Un8NPCJ6_Raxd_hi1Hl1_LwxHANYl-lE.jpg"
     ],
@@ -803,7 +803,7 @@
       "https://x.com/titech_touring",
       "https://www.instagram.com/titech_cycling/"
     ],
-    "jpg": [
+    "imageUrls": [
       "images/1K7rnftURrissD_Ycmn3uEiXWlGYxLRuQ.jpg"
     ],
     "circleCategory": "exercise",
@@ -817,7 +817,7 @@
       "https://www.instagram.com/titech_tfclub25?igsh=a251bm5hZnNuZm0y&utm_source=qr",
       "https://lin.ee/y79rfhj"
     ],
-    "jpg": [
+    "imageUrls": [
       "images/1iVU7o-WyUQd4u5sef5ZAr6waSUdP4Q2r.jpg"
     ],
     "circleCategory": "exercise",
@@ -830,10 +830,21 @@
       "https://x.com/titech_bioclub_?s=11",
       "https://t2biomod2024.github.io/biotech/"
     ],
-    "jpg": [
+    "imageUrls": [
       "images/1GVzB6ztUeWyCZjJ1jvxCYdeVJfKZTBvp.jpg"
     ],
     "circleCategory": "technology",
+    "circleType": "unofficial"
+  },
+  {
+    "name": "ScienceTechno",
+    "description": "ScienceTechno(通称サイテク)は東京科学大学の公認サークルです。\nサイテクでは工作を通して科学や技術の楽しさ、面白さを伝えるために活動をしており、主に小学生を対象としたイベントの企画・運営をしています。\n\nイベントの形式としては大きく4つの形式があります。\n１、教室\nサイテクのメインの活動です。小学校や公民館などで工作教室を行います。先生役の人が前でスライドを使いながら、工作の手順や工作に隠れている科学の原理や技術の仕組みについて説明していきます。また、説明だけでなく演示実験も行い、実験によっては子供たちが自分の手元で行い、子供たちは実験や工作を通して科学や技術について学ぶことができます。一回の教室は説明や実験も行うので60～90分と長めとなります。4月の9日、16日、27日に教室形式のイベントが体験できる新歓イベントを実施しますのでホームページから予約の上ぜひお越しください。\n２、カフェ\n大学生1人が小学生1～2人に個別で工作を教える形式です。原理説明は最小限で実験もほとんど行わないので、30分程度と短い時間で終わります。若葉祭のワークショップにて体験することができますのでぜひお越しください。\n３、ショー\n教室形式ではできないような大きな道具を使う実験をステージ上で行います。工大祭では大きな教室でたくさんの子供たちの前で行っています。\n４、展示\n部員が作った展示物を展示し、来た人に仕組みなどを説明します。\n\nサイテクでは活動頻度は部員それぞれ自由に決めることができ、部費も0円なので兼サーもやりやすいです。また、女子率が3割で女性の方でも入りやすくなっています。\n工作が好きな人、子供が好きな人、科学が好きな人はぜひホームページやXから新歓イベントに参加してみてください。",
+    "links": [
+      "https://shinkan.t-scitech.net/",
+      "https://twitter.com/scitech_shinkan"
+    ],
+    "imageUrls": [],
+    "circleCategory": "culture",
     "circleType": "unofficial"
   }
 ]
