@@ -52,24 +52,49 @@
 
 <style>
     .root {
-        padding: 40px;
 
         border-radius: 8px;
         border-style: solid;
         border-width: 1px;
         border-color: #ffd4d4;
 
-        width: 80vw;
 
         background-color: #fff8f8;
 
         box-shadow: 0 0 8px #f1f1f1;
+
+        animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     }
+    @media (max-width: 450px) {
+        .root {
+            padding: 20px;
+            width: calc(90vw - 40px);
+        }
+    }
+    @media (min-width: 450px) {
+        .root {
+            padding: 40px;
+            width: calc(90vw - 80px);
+        }
+    }
+
+    @keyframes slideIn {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+        }
+        40%,100% {
+            opacity: 1;
+        }
+    }
+
 
     .infos {
         display: flex;
-        gap: 3em;
-
+        gap: 2em;
         flex-wrap: wrap;
     }
 
@@ -77,17 +102,20 @@
         display: flex;
         flex-direction: column;
         gap: 1.5em;
+        flex: 1 1 200px;
     }
 
     .right {
         display: flex;
         flex-direction: column;
         gap: 1em;
+        flex: 1 1 300px;
     }
 
     .links {
         display: flex;
         gap: 2em;
+        flex-wrap: wrap;
     }
 
     h2 {
@@ -101,13 +129,14 @@
     }
 
     img {
-        width: 300px;
+        width: 100%;
         border-radius: 5px;
     }
 
     table {
         border-collapse: collapse;
         color: #222;
+        width: 200px;
     }
 
     td {

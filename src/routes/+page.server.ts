@@ -43,7 +43,7 @@ export const load: PageServerLoad = async () => {
         circleType: "official"
       },
       {
-        name: "H2O",
+        name: "H3O",
         description: "こんにちは！東京工業大学ストリートダンスサークルH2Oです！　現在、Hiphop, Lock, House, Break, Pop, Waackの6つのジャンルに分かれて活動をしています。詳しいジャンル紹介はH2O公式Instagram（@titechh2o）をチェックしてください！　1つ上の代が2月末の引退公演で引退し、新2,3年生の代で合わせて70名程のサークル員が活動をしています。東京工業大学以外の大学からも入サーを受け入れています。\n" +
           "\n" +
           "また、ほとんどのサークル員が大学からダンスを始めました。上手な先輩達が1から優しく教えてくれるので、ダンスが未経験でも全く大丈夫です！\n" +

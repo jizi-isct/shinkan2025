@@ -1,21 +1,22 @@
 <script lang="ts">
 
   import type {Circle} from "$lib";
-  import CircleComponent from "../components/CircleComponent.svelte";
   import Header from "../components/Header.svelte";
+  import Circles from "../components/Circles.svelte";
+  import Background from "../components/Background.svelte";
+  import Footer from "../components/Footer.svelte";
 
   export let data: {
     circles: Circle[];
   };
 </script>
 
+<Background />
 <Header/>
 <div class="circles">
-    {#each data.circles as circle}
-        <CircleComponent circle={circle} />
-    {/each}
+    <Circles circles={data.circles} />
 </div>
-
+<Footer/>
 
 
 <style>
@@ -27,7 +28,8 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 2em;
-        justify-content: center;
+        margin: 4em 0;
+        gap: 4em;
+        align-items: center;
     }
 </style>
