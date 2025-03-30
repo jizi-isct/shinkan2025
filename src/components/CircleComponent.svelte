@@ -40,7 +40,7 @@
             </table>
         </div>
         <div class="right">
-            <p>{circle.description}</p>
+            <p class="description">{circle.description}</p>
             <div class="links">
                 {#each circle.links as link}
                     <CircleLink url={link}/>
@@ -145,5 +145,9 @@
 
     .bold {
         font-weight: bold;
+    }
+
+    .description {
+        white-space: pre-wrap;
     }
 </style>
