@@ -76,6 +76,9 @@
         background-color: #fff8f8;
 
         box-shadow: 0 0 8px #f1f1f1;
+
+        opacity: 0;
+        animation: slideIn 1s 0.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     }
 
 

@@ -12,7 +12,8 @@
 
 <style>
     .root {
-
+        opacity: 0;
+        animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     }
 
     h1 {

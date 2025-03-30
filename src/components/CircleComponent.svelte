@@ -63,7 +63,8 @@
 
         box-shadow: 0 0 8px #f1f1f1;
 
-        animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        opacity: 0;
+        animation: slideIn 1s 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     }
     @media (max-width: 450px) {
         .root {
@@ -77,20 +78,6 @@
             width: calc(90vw - 80px);
         }
     }
-
-    @keyframes slideIn {
-        0% {
-            transform: translateY(100px);
-            opacity: 0;
-        }
-        100% {
-            transform: translateY(0);
-        }
-        40%,100% {
-            opacity: 1;
-        }
-    }
-
 
     .infos {
         display: flex;
