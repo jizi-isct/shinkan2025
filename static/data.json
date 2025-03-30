@@ -845,6 +845,22 @@
     ],
     "imageUrls": [],
     "circleCategory": "culture",
-    "circleType": "unofficial"
+    "circleType": "official"
+  },
+  {
+    "name": "工大祭実行委員会 JIZI",
+    "description": "新入生の皆さん、ご入学おめでとうございます! 私たちは、毎年 11 月初旬ごろに開催される東京科学大学の学園祭「工大祭」の運営をしている工大祭実行委員会、通称 JIZI (じつい)です。 活動は週に 2 回、毎週水曜日と金曜日に行っています。 活動内容は工大祭当日の運営だけでなく、1 年間を通してイベントの企画、広報活動、パンフレットや Web サイトの作成、資金集めなど工大祭開催に向けた準備を行っています。 また、合宿や遊びを定期的に開き、楽しく活動しています!\n\n新歓期には JIZI オリエンテーションや局体験、新歓交流会など様々なイベントを企画しているので、少しでも JIZI に興味を持って下さった方はぜひ参加してみてください! 新歓情報の詳細は以下の X や Instagram、公式 LINE、新歓サイトから発信しています。 委員一同、皆様と一緒に工大祭を創り上げることを楽しみにお待ちしています!",
+    "links": [
+      "https://twitter.com/jizi_koudaisai",
+      "https://www.instagram.com/jizi_koudaisai/",
+      "https://liff.line.me/1645278921-kWRPP32q/?accountId=829avadc",
+      "https://www.youtube.com/koudaisai_tokyo",
+      "https://jizi.jp/"
+    ],
+    "imageUrls": [
+      "images/20241105_200653.jpg"
+    ],
+    "circleCategory": "culture",
+    "circleType": "official"
   }
 ]
