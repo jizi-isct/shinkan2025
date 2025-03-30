@@ -1,5 +1,6 @@
 <script lang="ts">
   import CircleComponent from "./CircleComponent.svelte";
+  import type {Circle} from "$lib";
 
   let {circles}: { circles: Circle[] } = $props();
 
@@ -97,7 +98,7 @@
         gap: 2em;
     }
 
-    .search>div {
+    .search > div {
         flex-grow: 1;
     }
 
