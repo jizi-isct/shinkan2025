@@ -31,17 +31,20 @@
 
     camera.position.z = 5;
 
+    let prevDelta = 0
     function animate(delta: number) {
+      let d = delta - prevDelta;
       for (let mesh of meshes) {
-        mesh.rotation.x += delta * 1e-7;
-        mesh.rotation.y += delta * 1e-7;
-        mesh.position.y += delta * 3e-7;
+        mesh.rotation.x += d * 1e-4;
+        mesh.rotation.y += d * 1e-4;
+        mesh.position.y += d * 3e-5;
         if(mesh.position.y > 3) {
           mesh.position.y -= 6;
         }
       }
 
       renderer.render(scene, camera);
+      prevDelta = delta;
     }
 
     renderer.setAnimationLoop(animate);
