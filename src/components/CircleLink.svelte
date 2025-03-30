@@ -1,10 +1,12 @@
 <script lang="ts">
+    import {shortenUrl} from "$lib/util";
+
     let {url}: {url: string} = $props();
 </script>
 
 <a href={url} target="_blank" rel="noopener noreferrer">
     <img src={`https://www.google.com/s2/favicons?domain=${url}`} alt={`${url} の favicon`} />
-    <span>{url}</span>
+    <span>{shortenUrl(url)}</span>
 </a>
 
 <style>
