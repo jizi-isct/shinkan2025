@@ -35,7 +35,7 @@
       for (let mesh of meshes) {
         mesh.rotation.x += delta;
         mesh.rotation.y += delta;
-        mesh.position.y += delta * 0.0000001;
+        mesh.position.y += delta * 0.00000001;
       }
 
       renderer.render(scene, camera);

@@ -16,6 +16,7 @@
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"@types/node": "^22.13.14",
 		"@types/three": "^0.175.0",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
@@ -23,6 +24,8 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"mime-types": "^3.0.1",
+		"papaparse": "^5.5.2",
 		"three": "^0.175.0"
 	}
 }

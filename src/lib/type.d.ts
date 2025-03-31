@@ -22,7 +22,7 @@ export type Circle = {
    * - **technology**: 技術系
    */
   circleCategory: CircleCategory,
-  /**
+nvT  /**
    * サークルの種類（公認か非公認か）
    * - **official**: 公認
    * - **unofficial**: 非公認
