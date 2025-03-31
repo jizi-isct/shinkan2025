@@ -14,11 +14,11 @@
     renderer.setSize(window.innerWidth, window.innerHeight);
 
     let meshes: THREE.Mesh[] = [];
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 200; i++) {
       const geometry = new THREE.IcosahedronGeometry()
       const material = new THREE.MeshBasicMaterial({color: 0xffd4d4});
       const mesh = new THREE.Mesh(geometry, material);
-      mesh.position.set(Math.random() * 10 - 5, Math.random() * 10 - 5, Math.random() * 10 - 5)
+      mesh.position.set(Math.random() * 20 - 10, Math.random() * 20 - 10, Math.random() * 20 - 10)
       meshes.push(mesh);
       scene.add(mesh);
       mesh.scale.set(0.03, 0.03, 0.03);
@@ -38,8 +38,8 @@
         mesh.rotation.x += d * 1e-4;
         mesh.rotation.y += d * 1e-4;
         mesh.position.y += d * 3e-5;
-        if(mesh.position.y > 3) {
-          mesh.position.y -= 6;
+        if(mesh.position.y > 10) {
+          mesh.position.y -= 20;
         }
       }
 
