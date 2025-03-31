@@ -5,19 +5,16 @@
   import Circles from "../components/Circles.svelte";
   import Background from "../components/Background.svelte";
   import Footer from "../components/Footer.svelte";
-  import {shuffle} from "$lib/util";
 
   export let data: {
     circles: Circle[];
   };
-
-  let circles = shuffle(data.circles);
 </script>
 
 <Background />
 <Header/>
 <div class="circles">
-    <Circles circles={circles} />
+    <Circles circles={data.circles} />
 </div>
 <Footer/>
 
