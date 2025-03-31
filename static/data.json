@@ -862,5 +862,341 @@
     ],
     "circleCategory": "culture",
     "circleType": "official"
+  },
+  {
+    "name": "準硬式野球部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "サッカー部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "ラクビー部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "バドミントン部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "バスケットボール部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "ゴルフ部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "合気道部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "少林寺拳法部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "渓友会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "ストリートダンスサークル H2O",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "剣道部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "空手部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "端艇部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "競技スキー部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "山岳部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "フィットネスサークル L-Fit",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "体操部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "exercise",
+    "circleType": "official"
+  },
+  {
+    "name": "管弦楽団",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "ギター研究会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "ロック研究会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "モダンジャズ研究会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "コールクライネス",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "アニメーション研究会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "演劇研究部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "映画研究部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "英語研究部(ESS)",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "漫画研究会“P漫”",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "放送研究会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "囲碁部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "将棋部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "新聞部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "東洋思想研究会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "評論クラブ",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "国際開発サークル",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "東工大レゴ同好会",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "国際交流学生会SAGE",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "Tech-nation Records",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "ChessTech",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "culture",
+    "circleType": "official"
+  },
+  {
+    "name": "無線研究部",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "technology",
+    "circleType": "official"
+  },
+  {
+    "name": "マイスター",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "technology",
+    "circleType": "official"
+  },
+  {
+    "name": "Bio Creative Staff",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "technology",
+    "circleType": "official"
+  },
+  {
+    "name": "iGEM Tokyo Tech",
+    "description": "",
+    "links": [],
+    "imageUrls": [],
+    "circleCategory": "technology",
+    "circleType": "official"
   }
 ]
