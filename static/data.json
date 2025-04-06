@@ -843,7 +843,9 @@
       "https://shinkan.t-scitech.net/",
       "https://twitter.com/scitech_shinkan"
     ],
-    "imageUrls": [],
+    "imageUrls": [
+      "images/scitech.jpg"
+    ],
     "circleCategory": "culture",
     "circleType": "official"
   },
